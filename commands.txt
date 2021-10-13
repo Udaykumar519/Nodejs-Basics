@@ -2,6 +2,8 @@
 2.npm init -y    - This command will help us to setup package.json without any prompts
 3.npm install express - This command will help us to get express module from npmjs.com
 4.npm install - This will help you to install all the packages present in package.json file
+npm install -g create-react-app(anyModuleName)[globally]
+npx create-react-app my-app[remote]
 5.npm uninstall express - This command will help us to remove express module from our system
 
 6.Nodemon --- To restart our file automatically in command line.
