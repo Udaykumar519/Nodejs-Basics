@@ -1,14 +1,19 @@
-npm init       - This command will help us to setup package.json
-npm init -y    - This command will help us to setup package.json without any prompts
-npm install express - This command will help us to get express module from npmjs.com
-npm install - This will help you to install all the packages present in package.json file
-node app.js - To run the node file / application.
-node app - We dont have to provide extension, node would assume that we are trying to run .js file.
+1.npm init       - This command will help us to setup package.json
+2.npm init -y    - This command will help us to setup package.json without any prompts
+3.npm install express - This command will help us to get express module from npmjs.com
+4.npm install - This will help you to install all the packages present in package.json file
+5.npm uninstall express - This command will help us to remove express module from our system
 
-In package.json we can include commands in scripts.
-If its node specific, we can run using npm nodeSpecificCommand
-If its not node specific, we can run using npm run notNodeSpecificCommand
-These are node specific Commands:
+6.Nodemon --- To restart our file automatically in command line.
+7.**We have to make required changes in package.json>>scripts too.
+8.npm install nodemon --save-dev - This will install the required package in the devDependencies
+9.node app.js - To run the node file / application.
+10.node app - We dont have to provide extension, node would assume that we are trying to run .js file.
+
+11.In package.json we can include our commands(w.r.t files) in scripts.
+12.If its node specific, we can run using npm nodeSpecificCommand
+13.If its not node specific, we can run using npm run notNodeSpecificCommand
+14.These are node specific Commands:
  access, adduser, audit, bin, bugs, c, cache, ci, cit,
     clean-install, clean-install-test, completion, config,
     create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
@@ -20,8 +25,10 @@ These are node specific Commands:
     stars, start, stop, t, team, test, token, tst, un,
     uninstall, unpublish, unstar, up, update, v, version, view,
     whoami
-    
-important scripts:
+
+15.important scripts:
 console.log(process.pid);//process id
 console.log(process.execPath);//execution path
 console.log(process.cwd());//current working directory
+
+16.To exit from the terminal: ctrl+c
