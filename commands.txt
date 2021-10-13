@@ -1,0 +1,27 @@
+npm init       - This command will help us to setup package.json
+npm init -y    - This command will help us to setup package.json without any prompts
+npm install express - This command will help us to get express module from npmjs.com
+npm install - This will help you to install all the packages present in package.json file
+node app.js - To run the node file / application.
+node app - We dont have to provide extension, node would assume that we are trying to run .js file.
+
+In package.json we can include commands in scripts.
+If its node specific, we can run using npm nodeSpecificCommand
+If its not node specific, we can run using npm run notNodeSpecificCommand
+These are node specific Commands:
+ access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, fund, get, help, help-search, hook, i, init,
+    install, install-ci-test, install-test, it, link, list, ln,
+    login, logout, ls, org, outdated, owner, pack, ping, prefix,
+    profile, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+    
+important scripts:
+console.log(process.pid);//process id
+console.log(process.execPath);//execution path
+console.log(process.cwd());//current working directory
