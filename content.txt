@@ -5,10 +5,11 @@ Node.JS can be used to build different types of applications
 such as "command line applications", "web applications", "real-time 
 chat applications". rest API server etc.
 
+
 Advantages
 -----------
 1. We can use Javascript to build entire server side application 
-2. Asynchronous by default, so ot performs faster
+2. Asynchronous by default, so to performs faster
 3. Cross-Platform framework that runs on windows, mac and linux
 
 DataTypes
@@ -66,3 +67,7 @@ Advantages
 2. Allows us to define routes
 3. Allows us to create Rest API Server
 4. East to connect to databases such as MongoDB, Redis, MySQL, MSSQL, Postgresql
+
+MEAN - MongoDB ExpressJS Angular NodeJS
+
+MERN - MongoDB ExpressJS ReactJS NodeJS

@@ -1,6 +1,10 @@
-const logs=require("./logger")
-console.log(logs);
+const log=require("./logger")
+console.log(log);
 
-logs.info("This is info");
-logs.warn("This is warning");
-logs.error("This is error");
+log.info("This is info");
+log.warn("This is warning");
+log.error("This is error");
+
+console.log(process.pid)
+console.log(process.execPath)
+console.log(process.cwd())

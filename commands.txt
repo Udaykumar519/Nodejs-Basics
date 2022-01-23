@@ -1,6 +1,6 @@
 1.npm init       - This command will help us to setup package.json
 2.npm init -y    - This command will help us to setup package.json without any prompts
-3.npm install express - This command will help us to get express module from npmjs.com
+3.npm install express - This command will help us to get express module from https://www.npmjs.com/
 4.npm install - This will help you to install all the packages present in package.json file
 npm install -g create-react-app(anyModuleName)[globally]
 npx create-react-app my-app[remote]
@@ -34,3 +34,12 @@ console.log(process.execPath);//execution path
 console.log(process.cwd());//current working directory
 
 16.To exit from the terminal: ctrl+c
+
+17.node app.js - To run the node file / application
+
+18.node app - We don't have to use extension , node would assume that we 
+           are trying to run .js file
+
+19.npm start - will run start command from package.json file
+
+20.npm run dev-start -  always use run in between npm and your own command
